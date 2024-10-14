@@ -4,6 +4,9 @@
     <style>
       body {
         font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
 
       header h1 {
@@ -13,18 +16,25 @@
       main p {
         text-align: center;
       }
+
+      header .logo {
+        height: 100px;
+      }
     </style>
   </head>
   <body>
     <header>
       <h1>codewithcraft</h1>
-      <img src="./codewithcraft.png" />
     </header>
 
     <main>
+      <img id="logo" src="./codewithcraft.png" />
+    </main>
+
+    <footer>
       <p>
         <a href="mailto:hello@codewithcraft.com">hello@codewithcraft.com</a>
       </p>
-    </main>
+    </footer>
   </body>
 </html>
